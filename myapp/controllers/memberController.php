@@ -22,8 +22,8 @@ if (!empty($rs)) { // login sukses!
     $_SESSION['MEMBER'] = $rs;
 
     //landing page
-    header('location:http://localhost/Appku/index.php?hal=dataPegawai');
+    header('location:http://localhost/myapp/index.php?hal=dataPegawai');
 } else { // login Gagal!
     //landing page
-    header('location:http://localhost/Appku/index.php?hal=gagal_login');
+    header('location:http://localhost/myapp/index.php?hal=gagal_login');
 }
